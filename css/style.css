@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #F9F9F9; */
+    background-color: #0e0e12;
+    overflow-x: hidden;
+    
+}
+.container{
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+}
+.wrapper{
+    border-radius: 20px;
+    height: 300px;
+    overflow: hidden;
+    background-color: blue;
+    background: linear-gradient(344deg, rgba(30, -10, 50, 1) 0%, rgba(4, 0, 255) 50%);
+    box-shadow: rgba(4, 0, 255) 0px 25px 50px -12px;
+}
+.box__left{
+    float: left;
+    width: 50%;
+}
+.box__left .header__btn{
+    margin-left: 20%;
+    margin-top: 20%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: red;
+    padding: 20px 30px;
+
+}
+.heading__text{
+    padding: 2.5rem 0 0 19%; 
+}
+
+.box__right{
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+
+.box__right img{
+    height: 320px;
+    float: right;
+    padding-right: 20%;
+}
+
+
+.text {
+    float: left;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+
+
+.button {
+    margin-left: 20%;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 0.25em 0.75em;
+    }
+}
+
+
+.card {
+    width: 25rem;
+    height: 254px;
+    /* margin: 0 auto; */
+    background-color: #011522;
+    border-radius: 8px;
+    z-index: 1;
+    margin: 3rem 3rem;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+
+.head__title{
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+.head__title-1{
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: .8rem;
+}
+.nav__link{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.nav__tag{
+    text-align: center;
+}
+.head__sub-para{
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem 2rem;
+    color: #fff;
+    font-size: 14px;
+    
+}
+.section__1{
+    margin-top: 4rem;
+}
+ol{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-left: 49%;
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+.head__btn {
+    text-decoration: none;
+    color: #000;
+}
+
+.otp__form{
+    text-align: center;
+}
+
+.header__submit-btn {
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.header__submit-btn:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.section__4 #b{
+    width: 20%;
+}
+.audio__param{
+    margin: -1.5rem 1rem
+}
+table,
+th,
+td {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.wrapper__2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.button__a-2 {
+    color: #919191;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.box__wrap{
+    background-color: #fff;
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+.box__head{
+    background-color: #039BE5; 
+    height: 3rem;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.box__left-footer{
+    background-color: #FF3300; 
+    height: 6.5rem;
+    width: 50%;
+    float: left;
+}
+
+.box__right-footer{
+    background-color: #FFFF00; 
+    height: 6.5rem;
+    width: 50%;
+    float: right;
+}
+
+.box__footer{
+    background-color: #00CC00;
+    height: 3rem;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
